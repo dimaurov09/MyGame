@@ -1,0 +1,18 @@
+{
+  "userclik": 0,
+  "status": "success",
+  "message": "Current user click count",
+  "endpoint": "/api/user/clicks",
+  "method": "GET",
+  "response": {
+    "userclik": 0,
+    "displayText": "Количество кликов: 0"
+  },
+  "updateEndpoint": {
+    "method": "POST",
+    "url": "/api/user/clicks/update",
+    "body": {
+      "userclik": 0
+    }
+  }
+}
